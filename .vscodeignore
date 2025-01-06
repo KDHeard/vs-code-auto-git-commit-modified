@@ -1,0 +1,6 @@
+out/test/**
+src/test/**
+.vscode/**
+.git/**
+node_modules/**
+.vscode-test/**
