@@ -16,6 +16,10 @@
     "onSaveTextDocument"
   ],
   "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yogesh-valiya/vs-code-auto-git-commit.git"
+  },
   "contributes": {
     "commands": [
       {
