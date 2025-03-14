@@ -12,6 +12,11 @@
   ],
   "icon": "DLI Systems Logo.png",
   "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:autogitcommit.enable",
+    "onCommand:autogitcommit.disable",
+    "onSaveTextDocument"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/KDHeard/vs-code-auto-git-commit-modified.git"
