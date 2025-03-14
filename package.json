@@ -10,15 +10,11 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:autogitcommit.enable",
-    "onCommand:autogitcommit.disable",
-    "onSaveTextDocument"
-  ],
+  "icon": "DLI Systems Logo.png",
   "main": "./out/extension.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vs-code-auto-git-commit-modified.git"
+    "url": "https://github.com/KDHeard/vs-code-auto-git-commit-modified.git"
   },
   "license": "MIT",
   "contributes": {
@@ -82,7 +78,7 @@
     },
     {
       "name": "Kevin Heard",
-      "email": "your.email@example.com"
+      "email": "kevin.heard@dli.systems"
     }
   ]
 }
