@@ -3,6 +3,8 @@ import { exec } from 'child_process';
 import { getConfig } from './config';
 
 let isEnabled = false;
+let lastCommitTime: number = 0;
+const delayMs: number = 500; // 1000ms delay between commits
 
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
@@ -16,6 +18,11 @@ export function activate(context: vscode.ExtensionContext) {
     }),
     vscode.workspace.onDidSaveTextDocument((document) => {
       if (isEnabled) {
+        // Throttle commits to prevent index.lock conflicts
+        const now = Date.now();
+        if (now - lastCommitTime < delayMs) return; // Skip if within delay
+        lastCommitTime = now;
+        
         autoCommitAndPush(document);
       }
     })
