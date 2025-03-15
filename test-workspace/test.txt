@@ -1,3 +1,5 @@
 This is a test 
 This is also a test
 This is another test - maybe
+Add an new test line - another edit on this line 
+Checking result of DLI Git Manager 
