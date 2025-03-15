@@ -1,7 +1,7 @@
 {
-  "name": "autogitcommit-modified",
-  "displayName": "Auto Git Commit and Push (Modified)",
-  "description": "Fork of Auto Git Commit and Push with 500ms delay to prevent index.lock errors during multiple file saves",
+  "name": "dli-git-manager",
+  "displayName": "DLI Git Manager",
+  "description": "A Continuous Development and Integration (CDAI) solution for streamlined Git workflows in VS Code",
   "version": "0.0.2",
   "publisher": "KevinHeard",
   "engines": {
