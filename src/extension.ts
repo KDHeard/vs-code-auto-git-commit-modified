@@ -50,6 +50,7 @@ async function autoCommitAndPush(document: vscode.TextDocument) {
     }  
 
     const workspacePath = workspaceFolder.uri.fsPath;  
+    console.log('AutoGitCommit: Workspace path:', workspacePath);  
     const fileName = document.fileName.split('/').pop() || 'unknown';  
     const commitMessage = `Auto commit - ${fileName}`;  
 
@@ -79,7 +80,7 @@ async function autoCommitAndPush(document: vscode.TextDocument) {
           });  
         } else {  
           console.log('AutoGitCommit: Commit successful');  
-          vscode.window.showInformationMessage('Changes committed successfully');  
+          vscode.window.showErrorMessage('Changes committed successfully');  
         }  
       });  
     });  

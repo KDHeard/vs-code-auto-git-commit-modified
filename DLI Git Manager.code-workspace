@@ -1,7 +1,11 @@
 {
     "folders": [
-        {
-            "path": "test-workspace"
-        }
-    ]
-}
+      {
+        "path": "."
+      },
+      {
+        "path": "test-workspace"
+      }
+    ],
+    "settings": {}
+  }
