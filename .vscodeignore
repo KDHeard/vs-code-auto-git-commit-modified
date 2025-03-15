@@ -1,0 +1,9 @@
+out
+src
+node_modules
+.vscode-test
+.vscode
+.gitignore
+.eslintrc.json
+tsconfig.json
+vsc-extension-quickstart.md
