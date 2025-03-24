@@ -1,0 +1,5 @@
+Milestone 1: Develop a Git Auto Commit Extension for VS Code
+
+[2025-03-24 07:00 PM PDT] Initialized the ADP Git Auto Commit extension project in ADP/Milestone 1.
+[2025-03-24 11:30 PM NZDT] User initialized a Git repository at the DLI Systems ADP level, installed Yeoman and VS Code Extension Generator, generated the adp-git-auto-commit extension project in DLI Systems ADP/Git Auto Commit/adp-git-auto-commit, and created the PROGRESS.log file in DLI Systems ADP/Git Auto Commit.
+Monday, 25 March 2025 at 12:00 AM NZDT – User updated the file structure by removing CHANGELOG.md and README.md from adp-git-auto-commit, added PROMPT_ENVIRO.md and MILESTONE.md, updated .gitignore, and attempted to install simple-git (with an error due to an incorrect path). The user also updated src/extension.ts to detect file saves and attempted to test in EDH, but EDH failed to load.

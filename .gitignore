@@ -1,1 +1,21 @@
-node_modules
+# Ignore node_modules and build artifacts
+node_modules/
+dist/
+out/
+
+# Ignore VS Code workspace files
+.vscode/
+
+# Ignore package lock files (optional, since we're using npm)
+package-lock.json
+
+# Ignore logo PNG files
+*.png
+
+# Ignore temporary log files, but allow PROGRESS.log
+*.log
+*.tmp
+!PROGRESS.log
+
+# Ignore macOS system files
+.DS_Store
