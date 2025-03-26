@@ -3,19 +3,22 @@
   "displayName": "adp-git-auto-commit",
   "description": "A VS Code extension to automate Git commits on file save for the DLI Systems ADP",
   "version": "0.0.1",
+  "publisher": "undefined_publisher",
   "engines": {
     "vscode": "^1.98.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "adp-git-auto-commit.helloWorld",
-        "title": "Hello World"
+        "title": "ADP Git Auto Commit: Hello World"
       }
     ]
   },

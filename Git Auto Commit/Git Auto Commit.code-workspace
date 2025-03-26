@@ -1,0 +1,15 @@
+{
+    "folders": [
+      {
+        "path": "."
+      }
+    ],
+    "settings": {
+      "git.enabled": true,
+      "git.openRepositoryInParentFolders": "always",
+      "git.showProgress": true,
+      "eslint.nodeEnv": "development",
+      "gitlens.remotes": [],
+      "extensions.ignoreRecommendations": true
+    }
+  }
