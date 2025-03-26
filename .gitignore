@@ -4,7 +4,9 @@ dist/
 out/
 
 # Ignore VS Code workspace files
-.vscode/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
 
 # Ignore package lock files (optional, since we're using npm)
 package-lock.json
